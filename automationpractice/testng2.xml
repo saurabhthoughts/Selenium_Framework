@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+  <run>
+  <include name="smoke"></include>
+  </run>
+  </groups>
+    <classes>
+     <class name="com.retail.qa.testcases.HomePageTest"/>
+      <class name="com.retail.qa.testcases.JourneyTest"/>
+      <class name="com.retail.qa.testcases.CreateAccountTests"/>
+      <class name="E2EFramework.automationpractice.AppTest"/>
+      <class name="com.retail.qa.testcases.MyAccMystoTest"/>
+      <class name="com.retail.qa.testcases.LoginMyStoreTest"/>
+    
+    
+    </classes>
+  </test> 
+ 
+  
+</suite> <!-- Suite -->
